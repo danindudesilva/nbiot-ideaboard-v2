@@ -7916,6 +7916,99 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="3.35" y="1.45" curve="90"/>
 </polygon>
 </package>
+<package name="MOUNTINGHOLE_3.0_PLATED_VIAS">
+<circle x="0" y="0" radius="3.429" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<pad name="P$1" x="0" y="0" drill="3" diameter="6.4516"/>
+<pad name="P$2" x="0" y="2.5" drill="0.4"/>
+<pad name="P$3" x="2.5" y="0" drill="0.4"/>
+<pad name="P$4" x="0" y="-2.5" drill="0.4"/>
+<pad name="P$5" x="-2.5" y="0" drill="0.4"/>
+<pad name="P$6" x="-1.8" y="1.7" drill="0.4"/>
+<pad name="P$7" x="-1.8" y="-1.7" drill="0.4"/>
+<pad name="P$8" x="1.8" y="-1.7" drill="0.4"/>
+<pad name="P$9" x="1.8" y="1.7" drill="0.4"/>
+</package>
+<package name="MOUNTINGHOLE_1.0_PLATED">
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="1" diameter="3"/>
+<text x="-0.87" y="-2.74" size="0.8128" layer="48">1,0</text>
+</package>
+<package name="MOUNTINGHOLE_2.0_PLATED">
+<circle x="0" y="0" radius="1.8" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
+<text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
+</package>
+<package name="MOUNTINGHOLE_2.5_PLATED">
+<circle x="0" y="0" radius="2" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.5" diameter="3.2"/>
+</package>
+<package name="MOUNTINGHOLE_2.5_PLATED_THICK">
+<circle x="0" y="0" radius="2.25" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.5" diameter="4"/>
+</package>
+<package name="MOUNTINGHOLE_3.0_PLATED">
+<circle x="0" y="0" radius="3.429" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<pad name="P$1" x="0" y="0" drill="3" diameter="6.4516"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+</package>
+<package name="MOUNTINGHOLE_3.0_PLATED_SQUAREVIAS">
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="3.4" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-3.4" x2="3.4" y2="3.4" width="0.127" layer="21"/>
+<wire x1="3.4" y1="3.4" x2="-3.4" y2="3.4" width="0.127" layer="21"/>
+<rectangle x1="-3.75" y1="-3.75" x2="3.75" y2="3.75" layer="39"/>
+<rectangle x1="-3.75" y1="-3.75" x2="3.75" y2="3.75" layer="41"/>
+<pad name="P$1" x="0" y="0" drill="3" diameter="6.4" shape="square"/>
+<pad name="P$2" x="-2.25" y="0" drill="0.4"/>
+<pad name="P$3" x="0" y="2.25" drill="0.4"/>
+<pad name="P$4" x="2.25" y="0" drill="0.4"/>
+<pad name="P$5" x="0" y="-2.25" drill="0.4"/>
+<pad name="P$6" x="-2.25" y="2.25" drill="0.4"/>
+<pad name="P$7" x="2.25" y="2.25" drill="0.4"/>
+<pad name="P$8" x="2.25" y="-2.25" drill="0.4"/>
+<pad name="P$9" x="-2.25" y="-2.25" drill="0.4"/>
+</package>
+<package name="MOUNTINGHOLE_3.0_PLATEDTHIN">
+<circle x="0" y="0" radius="2.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="3" diameter="3.6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TVSARRAY_5LANE">
@@ -8033,6 +8126,10 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="P$1" x="10.16" y="-10.16" length="middle" rot="R180"/>
 <wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.2032" layer="94"/>
+</symbol>
+<symbol name="MOUNTINGHOLE">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8880,6 +8977,71 @@ Source: AVX .. aphvc.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOUNTINGHOLE" prefix="$H">
+<description>&lt;b&gt;Mounting Hole&lt;/b&gt;
+&lt;p&gt;For #2 screws (0.086"/2.18mm width, 0.094"/2.4mm hole) use 2.5mm&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOUNTINGHOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOUNTINGHOLE_3.0_PLATED_VIAS">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.0" package="MOUNTINGHOLE_1.0_PLATED">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.0" package="MOUNTINGHOLE_2.0_PLATED">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.5" package="MOUNTINGHOLE_2.5_PLATED">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.5_THICK" package="MOUNTINGHOLE_2.5_PLATED_THICK">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.0" package="MOUNTINGHOLE_3.0_PLATED">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.0SQUARE" package="MOUNTINGHOLE_3.0_PLATED_SQUAREVIAS">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.0THIN" package="MOUNTINGHOLE_3.0_PLATEDTHIN">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -18571,7 +18733,6 @@ DDEController.pdf</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="Q2" library="adafruit" deviceset="CRYSTAL" device="SM49" value="8MHz"/>
 <part name="Q1" library="adafruit" deviceset="CRYSTAL" device="TC26H-SMD" value="32.768kHz"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="M0805" value="1M"/>
@@ -18638,8 +18799,8 @@ DDEController.pdf</description>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="D4" library="Adafruit SIM808 Breakout" deviceset="DIODE-ZENER" device="SOD123" value="MMSZ5231BT1G"/>
-<part name="JP1" library="pinhead-2" deviceset="PINHD-2X05" device="_2.54-SMD"/>
-<part name="CONFIG" library="pinhead-2" deviceset="PINHD-2X03" device="_2.54-SMD"/>
+<part name="MODEMCTL" library="pinhead-2" deviceset="PINHD-2X05" device="_2.54-SMD"/>
+<part name="BOOT" library="pinhead-2" deviceset="PINHD-2X03" device="_2.54-SMD"/>
 <part name="V2" library="Adafruit111" deviceset="VBUS" device=""/>
 <part name="POWER" library="Adafruit SIM808 Breakout" deviceset="USB" device="_MICRO_20329_V2"/>
 <part name="U$1" library="adafruit" deviceset="2.1MMJACK" device="SMT"/>
@@ -18653,6 +18814,10 @@ DDEController.pdf</description>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="$H1" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
+<part name="$H2" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
+<part name="$H3" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
+<part name="$H4" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
 </parts>
 <sheets>
 <sheet>
@@ -18765,8 +18930,8 @@ DDEController.pdf</description>
 <instance part="+3V31" gate="G$1" x="105.41" y="58.42" smashed="yes">
 <attribute name="VALUE" x="106.68" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="147.32" y="78.74"/>
-<instance part="CONFIG" gate="A" x="219.71" y="107.95"/>
+<instance part="MODEMCTL" gate="A" x="147.32" y="78.74"/>
+<instance part="BOOT" gate="A" x="219.71" y="107.95"/>
 </instances>
 <busses>
 </busses>
@@ -18842,13 +19007,13 @@ DDEController.pdf</description>
 <wire x1="224.79" y1="105.41" x2="226.06" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="226.06" y1="105.41" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="CONFIG" gate="A" pin="6"/>
+<pinref part="BOOT" gate="A" pin="6"/>
 </segment>
 <segment>
 <wire x1="217.17" y1="105.41" x2="215.9" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="105.41" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="CONFIG" gate="A" pin="5"/>
+<pinref part="BOOT" gate="A" pin="5"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -18951,13 +19116,13 @@ DDEController.pdf</description>
 <wire x1="217.17" y1="110.49" x2="215.9" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
 <wire x1="215.9" y1="110.49" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="CONFIG" gate="A" pin="1"/>
+<pinref part="BOOT" gate="A" pin="1"/>
 </segment>
 <segment>
 <wire x1="224.79" y1="110.49" x2="226.06" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
 <wire x1="226.06" y1="110.49" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="CONFIG" gate="A" pin="2"/>
+<pinref part="BOOT" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -19055,14 +19220,14 @@ DDEController.pdf</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="217.17" y1="107.95" x2="213.36" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="CONFIG" gate="A" pin="3"/>
+<pinref part="BOOT" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="224.79" y1="107.95" x2="228.6" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="CONFIG" gate="A" pin="4"/>
+<pinref part="BOOT" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="USART1_RX" class="0">
@@ -19181,7 +19346,7 @@ DDEController.pdf</description>
 <segment>
 <wire x1="144.78" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <label x="137.16" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="MODEMCTL" gate="A" pin="7"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="127" x2="34.29" y2="127" width="0.1524" layer="91"/>
@@ -19193,7 +19358,7 @@ DDEController.pdf</description>
 <segment>
 <wire x1="144.78" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <label x="137.16" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="A" pin="9"/>
+<pinref part="MODEMCTL" gate="A" pin="9"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="124.46" x2="34.29" y2="124.46" width="0.1524" layer="91"/>
@@ -19205,14 +19370,14 @@ DDEController.pdf</description>
 <segment>
 <wire x1="152.4" y1="76.2" x2="156.21" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="JP1" gate="A" pin="8"/>
+<pinref part="MODEMCTL" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="BC92_TX" class="0">
 <segment>
 <wire x1="152.4" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 <label x="172.72" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="10"/>
+<pinref part="MODEMCTL" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="BC92_RX" class="0">
@@ -19230,7 +19395,7 @@ DDEController.pdf</description>
 <segment>
 <wire x1="152.4" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="172.72" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="MODEMCTL" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="STM_PSM_EINT" class="0">
@@ -19242,7 +19407,7 @@ DDEController.pdf</description>
 <segment>
 <wire x1="144.78" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 <label x="137.16" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="MODEMCTL" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="STM_PWRKEY" class="0">
@@ -19254,14 +19419,14 @@ DDEController.pdf</description>
 <segment>
 <wire x1="144.78" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="137.16" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="MODEMCTL" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="STM_RESET" class="0">
 <segment>
 <wire x1="144.78" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <label x="137.16" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="MODEMCTL" gate="A" pin="5"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PB1"/>
@@ -19273,14 +19438,14 @@ DDEController.pdf</description>
 <segment>
 <wire x1="152.4" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="172.72" y="81.28" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="MODEMCTL" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="BC92_RESET_MCU" class="0">
 <segment>
 <wire x1="152.4" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="172.72" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="MODEMCTL" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="PC13" class="0">
@@ -19325,6 +19490,8 @@ DDEController.pdf</description>
 <pinref part="U1" gate="A" pin="PB13"/>
 <wire x1="34.29" y1="119.38" x2="29.21" y2="119.38" width="0.1524" layer="91"/>
 <label x="29.21" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="34.29" y1="119.38" x2="29.21" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="119.38" x2="29.21" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB0" class="0">
@@ -19595,7 +19762,6 @@ DDEController.pdf</description>
 <instance part="GND15" gate="1" x="146.05" y="95.25"/>
 <instance part="VDD4" gate="G$1" x="146.05" y="133.35"/>
 <instance part="JP6" gate="A" x="157.48" y="114.3"/>
-<instance part="GND13" gate="1" x="73.66" y="120.65" rot="R90"/>
 <instance part="SWD" gate="A" x="22.86" y="143.51" rot="R180"/>
 <instance part="+3V37" gate="G$1" x="33.02" y="157.48" smashed="yes">
 <attribute name="VALUE" x="34.29" y="157.48" size="1.778" layer="96"/>
@@ -19612,6 +19778,10 @@ DDEController.pdf</description>
 <instance part="+3V3" gate="G$1" x="166.37" y="163.83" smashed="yes">
 <attribute name="VALUE" x="167.64" y="163.83" size="1.778" layer="96"/>
 </instance>
+<instance part="$H1" gate="G$1" x="26.67" y="45.72"/>
+<instance part="$H2" gate="G$1" x="43.18" y="45.72"/>
+<instance part="$H3" gate="G$1" x="60.96" y="45.72"/>
+<instance part="$H4" gate="G$1" x="74.93" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -19628,7 +19798,7 @@ DDEController.pdf</description>
 <label x="35.56" y="138.43" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VIN" class="1">
+<net name="VBUS" class="3">
 <segment>
 <pinref part="JP5" gate="A" pin="6"/>
 <wire x1="92.71" y1="101.6" x2="80.01" y2="101.6" width="0.1524" layer="91"/>
@@ -19915,32 +20085,11 @@ DDEController.pdf</description>
 <label x="100.33" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC6" class="0">
-<segment>
-<pinref part="JP9" gate="A" pin="5"/>
-<wire x1="26.67" y1="85.09" x2="35.56" y2="85.09" width="0.1524" layer="91"/>
-<label x="35.56" y="85.09" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="PB14" class="0">
 <segment>
 <pinref part="JP9" gate="A" pin="6"/>
 <wire x1="26.67" y1="87.63" x2="35.56" y2="87.63" width="0.1524" layer="91"/>
 <label x="35.56" y="87.63" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC8" class="0">
-<segment>
-<pinref part="JP9" gate="A" pin="7"/>
-<wire x1="26.67" y1="90.17" x2="35.56" y2="90.17" width="0.1524" layer="91"/>
-<label x="35.56" y="90.17" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC9" class="0">
-<segment>
-<pinref part="JP9" gate="A" pin="8"/>
-<wire x1="26.67" y1="92.71" x2="35.56" y2="92.71" width="0.1524" layer="91"/>
-<label x="35.56" y="92.71" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA12" class="0">
@@ -19967,6 +20116,25 @@ DDEController.pdf</description>
 <pinref part="CC1101" gate="A" pin="5"/>
 <wire x1="149.86" y1="149.86" x2="140.97" y2="149.86" width="0.1524" layer="91"/>
 <label x="140.97" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="A" pin="8"/>
+<wire x1="26.67" y1="92.71" x2="35.56" y2="92.71" width="0.1524" layer="91"/>
+<label x="35.56" y="92.71" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB13" class="0">
+<segment>
+<pinref part="JP9" gate="A" pin="7"/>
+<wire x1="26.67" y1="90.17" x2="35.56" y2="90.17" width="0.1524" layer="91"/>
+<label x="35.56" y="90.17" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB15" class="0">
+<segment>
+<pinref part="JP9" gate="A" pin="5"/>
+<wire x1="26.67" y1="85.09" x2="35.56" y2="85.09" width="0.1524" layer="91"/>
+<label x="35.56" y="85.09" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
