@@ -18640,12 +18640,12 @@ DDEController.pdf</description>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="Q5" library="discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="9013"/>
 <part name="NET" library="discrete" deviceset="LED*" device="'0805'" value="RED"/>
-<part name="R28" library="discrete" deviceset="R*" device="-0805" value="2.2k"/>
-<part name="R26" library="discrete" deviceset="R*" device="-0805" value="4.7k"/>
+<part name="R28" library="discrete" deviceset="R*" device="-0805" value="2k2"/>
+<part name="R26" library="discrete" deviceset="R*" device="-0805" value="4k7"/>
 <part name="R27" library="discrete" deviceset="R*" device="-0805" value="47k"/>
 <part name="Q3" library="discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="9013"/>
 <part name="R22" library="discrete" deviceset="R*" device="-0805" value="47k"/>
-<part name="ANT1" library="Connector" deviceset="ANTENNA-U-FL" device="" value="U-FL"/>
+<part name="RF_ANT" library="Connector" deviceset="ANTENNA-U-FL" device="" value="U-FL"/>
 <part name="P+9" library="supply1" deviceset="V+" device=""/>
 <part name="PWRKEY" library="buttons" deviceset="KSS-2EG4430" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
@@ -18657,14 +18657,14 @@ DDEController.pdf</description>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="Adafruit SIM808 Breakout" deviceset="TVSARRAY_5LANE" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="R19" library="discrete" deviceset="R*" device="-0805" value="4.7k"/>
+<part name="R19" library="discrete" deviceset="R*" device="-0805" value="4k7"/>
 <part name="Q4" library="discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="9013"/>
 <part name="R23" library="discrete" deviceset="R*" device="-0805" value="47k"/>
 <part name="RESET" library="buttons" deviceset="KSS-2EG4430" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="R20" library="discrete" deviceset="R*" device="-0805" value="4.7k"/>
+<part name="R20" library="discrete" deviceset="R*" device="-0805" value="4k7"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="SmartPrj" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R1" library="SmartPrj" deviceset="R-EU_" device="R0805" value="330R"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
@@ -18674,7 +18674,6 @@ DDEController.pdf</description>
 <part name="C28" library="Adafruit SIM808 Breakout" deviceset="C-US" device="C1210" value="100uF"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="U1" library="STM32F103RBT6" deviceset="STM32F103RBT6" device=""/>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
@@ -18713,7 +18712,7 @@ DDEController.pdf</description>
 <part name="C11" library="Adafruit111" deviceset="CAP_CERAMIC" device="_0805MP" value="20pF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="M0805" value="1k"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="5.6k"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="5k7"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="BLM21BB201SN1D"/>
 <part name="U6" library="Quectel" deviceset="BC92" device=""/>
@@ -18723,7 +18722,7 @@ DDEController.pdf</description>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="R25" library="discrete" deviceset="R*" device="-0805" value="2.2k"/>
+<part name="R25" library="discrete" deviceset="R*" device="-0805" value="0R"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -18765,7 +18764,7 @@ DDEController.pdf</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="MCP73831" deviceset="MCP73831/2" device="" value="MCP73831T-2ACI/OT"/>
 <part name="C18" library="Adafruit111" deviceset="CAP_CERAMIC" device="_0805" value="10uF"/>
-<part name="R13" library="resistor" deviceset="R-US_" device="M0805" value="2.2k"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="M0805" value="2k2"/>
 <part name="R11" library="resistor" deviceset="R-US_" device="M0805" value="1k"/>
 <part name="CHG" library="LED-adafruit" deviceset="LED" device="0805" value="ORANGE"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -18788,7 +18787,7 @@ DDEController.pdf</description>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD2"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
 <part name="R15" library="resistor" deviceset="R-US_" device="M0805" value="750k"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="M0805" value="750k"/>
 <part name="R16" library="resistor" deviceset="R-US_" device="M0805" value="100k"/>
@@ -18817,7 +18816,7 @@ DDEController.pdf</description>
 <part name="$H1" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
 <part name="$H2" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
 <part name="$H3" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
-<part name="$H4" library="Adafruit SIM808 Breakout" deviceset="MOUNTINGHOLE" device="3.0THIN" value="MOUNTINGHOLE3.0THIN"/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18834,7 +18833,6 @@ DDEController.pdf</description>
 <attribute name="NAME" x="23.7236" y="52.07" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="25.908" y="51.435" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="P+1" gate="1" x="20.32" y="54.61"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U1" gate="A" x="31.75" y="149.86"/>
 <instance part="U1" gate="B" x="195.58" y="156.21"/>
@@ -18932,6 +18930,9 @@ DDEController.pdf</description>
 </instance>
 <instance part="MODEMCTL" gate="A" x="147.32" y="78.74"/>
 <instance part="BOOT" gate="A" x="219.71" y="107.95"/>
+<instance part="+3V2" gate="G$1" x="20.32" y="54.61" smashed="yes">
+<attribute name="VALUE" x="21.59" y="54.61" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19055,13 +19056,6 @@ DDEController.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="+5V" class="3">
-<segment>
-<wire x1="20.32" y1="49.53" x2="20.32" y2="52.07" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="VDD_3"/>
@@ -19129,6 +19123,11 @@ DDEController.pdf</description>
 <wire x1="102.87" y1="53.34" x2="105.41" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="105.41" y1="53.34" x2="105.41" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="+3V31" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="49.53" x2="20.32" y2="52.07" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -19781,7 +19780,6 @@ DDEController.pdf</description>
 <instance part="$H1" gate="G$1" x="26.67" y="45.72"/>
 <instance part="$H2" gate="G$1" x="43.18" y="45.72"/>
 <instance part="$H3" gate="G$1" x="60.96" y="45.72"/>
-<instance part="$H4" gate="G$1" x="74.93" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -19911,11 +19909,6 @@ DDEController.pdf</description>
 <pinref part="JP6" gate="A" pin="8"/>
 <wire x1="154.94" y1="106.68" x2="143.51" y2="106.68" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="CC1101" gate="A" pin="4"/>
-<wire x1="157.48" y1="152.4" x2="168.91" y2="152.4" width="0.1524" layer="91"/>
-<label x="168.91" y="152.4" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="PC7" class="0">
 <segment>
@@ -19960,6 +19953,11 @@ DDEController.pdf</description>
 <pinref part="JP4" gate="A" pin="3"/>
 <label x="100.33" y="78.74" size="1.27" layer="95" xref="yes"/>
 <wire x1="92.71" y1="78.74" x2="100.33" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CC1101" gate="A" pin="4"/>
+<wire x1="157.48" y1="152.4" x2="168.91" y2="152.4" width="0.1524" layer="91"/>
+<label x="168.91" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA1" class="0">
@@ -20568,7 +20566,7 @@ DDEController.pdf</description>
 <attribute name="NAME" x="41.91" y="100.33" size="1.016" layer="95" ratio="10"/>
 <attribute name="VALUE" x="41.91" y="96.52" size="1.016" layer="96" ratio="10"/>
 </instance>
-<instance part="ANT1" gate="G$1" x="213.36" y="157.48" smashed="yes" rot="MR180">
+<instance part="RF_ANT" gate="G$1" x="213.36" y="157.48" smashed="yes" rot="MR180">
 <attribute name="NAME" x="209.55" y="152.4" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="209.55" y="165.1" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -20746,10 +20744,10 @@ DDEController.pdf</description>
 <wire x1="39.37" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANT1" gate="G$1" pin="GND3"/>
-<pinref part="ANT1" gate="G$1" pin="GND2"/>
+<pinref part="RF_ANT" gate="G$1" pin="GND3"/>
+<pinref part="RF_ANT" gate="G$1" pin="GND2"/>
 <wire x1="220.98" y1="160.02" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="ANT1" gate="G$1" pin="GND1"/>
+<pinref part="RF_ANT" gate="G$1" pin="GND1"/>
 <wire x1="220.98" y1="157.48" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
 <junction x="220.98" y="157.48"/>
 <pinref part="GND45" gate="1" pin="GND"/>
@@ -21165,7 +21163,7 @@ DDEController.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="ANT1" gate="G$1" pin="D"/>
+<pinref part="RF_ANT" gate="G$1" pin="D"/>
 <pinref part="R25" gate="R" pin="1"/>
 <wire x1="205.74" y1="157.48" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="157.48" x2="199.39" y2="157.48" width="0.1524" layer="91"/>
