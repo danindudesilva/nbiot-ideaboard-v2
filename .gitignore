@@ -1,3 +1,8 @@
+backup/
 *.b#*
 *.s#*
 *.scr
+*.zip
+*.mnb
+*.mnt
+*.rar
