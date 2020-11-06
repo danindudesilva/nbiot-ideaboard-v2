@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -3641,7 +3641,7 @@
 <rectangle x1="43.5902125" y1="57.44525" x2="45.8762125" y2="57.5300875" layer="22" rot="R180"/>
 <rectangle x1="28.0962125" y1="57.44525" x2="42.5742125" y2="57.5300875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="51.316409375" x2="50.85366875" y2="51.400990625" layer="22" rot="R180"/>
-<rectangle x1="23.19306875" y1="50.867796875" x2="50.87906875" y2="50.952378125" layer="22" rot="R180"/>
+<rectangle x1="23.16766875" y1="50.867796875" x2="50.85366875" y2="50.952378125" layer="22" rot="R180"/>
 <rectangle x1="45.8216" y1="51.3588" x2="50.8508" y2="57.5056" layer="22"/>
 <rectangle x1="23.1648" y1="51.3588" x2="28.448" y2="57.5564" layer="22"/>
 <rectangle x1="23.16766875" y1="43.374821875" x2="50.85366875" y2="43.459403125" layer="22" rot="R180"/>
@@ -3743,11 +3743,11 @@
 <rectangle x1="23.16766875" y1="50.605184375" x2="50.85366875" y2="50.690021875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="50.452784375" x2="50.85366875" y2="50.537621875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="50.351184375" x2="50.85366875" y2="50.436021875" layer="22" rot="R180"/>
-<rectangle x1="23.11686875" y1="50.241203125" x2="50.80286875" y2="50.325784375" layer="22" rot="R180"/>
+<rectangle x1="23.16766875" y1="50.393603125" x2="50.85366875" y2="50.478184375" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="50.528984375" x2="50.85366875" y2="50.613821875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="50.986184375" x2="50.85366875" y2="51.071021875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="50.918621875" x2="50.85366875" y2="51.003203125" layer="22" rot="R180"/>
-<rectangle x1="23.19306875" y1="51.070996875" x2="50.87906875" y2="51.155578125" layer="22" rot="R180"/>
+<rectangle x1="23.16766875" y1="51.045596875" x2="50.85366875" y2="51.130178125" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="51.214784375" x2="50.85366875" y2="51.299621875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="61.010803125" x2="50.85366875" y2="61.095384375" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="60.934603125" x2="50.85366875" y2="61.019184375" layer="22" rot="R180"/>
@@ -3936,7 +3936,7 @@
 <rectangle x1="23.16766875" y1="38.379403125" x2="50.85366875" y2="38.463984375" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="38.463984375" x2="50.85366875" y2="38.548821875" layer="22" rot="R180"/>
 <rectangle x1="23.16766875" y1="38.548821875" x2="50.85366875" y2="38.633403125" layer="22" rot="R180"/>
-<text x="86.5632" y="63.6016" size="0.889" layer="30" font="vector" rot="MR0">2020/11/06</text>
+<text x="104.0384" y="100.3808" size="0.889" layer="30" font="vector" rot="MR0">2020/11/06</text>
 <rectangle x1="98.84128125" y1="96.2347875" x2="98.9251" y2="96.31936875" layer="21"/>
 <rectangle x1="99.09528125" y1="96.2347875" x2="99.1791" y2="96.31936875" layer="21"/>
 <rectangle x1="99.34928125" y1="96.2347875" x2="99.4331" y2="96.31936875" layer="21"/>
@@ -5482,7 +5482,10 @@
 <rectangle x1="1.819403125" y1="78.691459375" x2="2.411221875" y2="78.776040625" layer="22" rot="R180"/>
 <rectangle x1="0.041403125" y1="78.691459375" x2="0.633221875" y2="78.776040625" layer="22" rot="R180"/>
 <rectangle x1="-6.478778125" y1="78.691459375" x2="-2.328415625" y2="78.776040625" layer="22" rot="R180"/>
-<text x="44.0944" y="110.1344" size="1.27" layer="21" font="vector" ratio="10">added new components. update BoM</text>
+<text x="-20.7264" y="59.5376" size="1.27" layer="21" font="vector" ratio="10">added new components. update BoM</text>
+<rectangle x1="23.16766875" y1="50.224184375" x2="50.85366875" y2="50.309021875" layer="22" rot="R180"/>
+<rectangle x1="23.16766875" y1="50.283621875" x2="50.85366875" y2="50.368203125" layer="22" rot="R180"/>
+<rectangle x1="23.16766875" y1="66.200784375" x2="50.85366875" y2="66.285621875" layer="22" rot="R180"/>
 </plain>
 <libraries>
 <library name="Adafruit SIM808 Breakout">
