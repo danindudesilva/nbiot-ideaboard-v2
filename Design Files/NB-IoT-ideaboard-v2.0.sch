@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="1" visible="no" active="no"/>
@@ -26762,7 +26762,7 @@ AND PULUPS</text>
 <wire x1="256.54" y1="88.9" x2="161.29" y2="88.9" width="0.1524" layer="94" style="longdash"/>
 <wire x1="123.19" y1="132.08" x2="123.19" y2="3.81" width="0.1524" layer="94" style="longdash"/>
 <text x="217.17" y="20.32" size="2.54" layer="94">STM32F103</text>
-<text x="163.83" y="121.92" size="2.54" layer="94">REFER AN2867</text>
+<text x="163.83" y="124.46" size="1.27" layer="94">REFER AN2867</text>
 </plain>
 <instances>
 <instance part="PWR" gate="G$1" x="134.62" y="100.33"/>
@@ -28286,7 +28286,10 @@ AND PULUPS</text>
 <instance part="CHG" gate="G$1" x="50.8" y="132.08" rot="R90"/>
 <instance part="JP4" gate="A" x="148.59" y="73.66"/>
 <instance part="SUPPLY4" gate="P" x="138.43" y="74.93"/>
-<instance part="U8" gate="A" x="198.12" y="46.99"/>
+<instance part="U8" gate="A" x="198.12" y="46.99" smashed="yes">
+<attribute name="NAME" x="213.7156" y="56.1086" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="202.9206" y="33.2486" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+</instance>
 <instance part="GND58" gate="1" x="196.85" y="34.29" rot="MR0"/>
 <instance part="V6" gate="G$1" x="240.03" y="53.34"/>
 </instances>
@@ -28764,8 +28767,12 @@ AND PULUPS</text>
 <instance part="C23" gate="G$1" x="231.14" y="114.3" rot="R180"/>
 <instance part="NET" gate="G$1" x="246.38" y="162.56" rot="R270"/>
 <instance part="C19" gate="G$1" x="6.35" y="154.94"/>
-<instance part="S3" gate="G$1" x="247.65" y="96.52" rot="R270"/>
-<instance part="S6" gate="G$1" x="247.65" y="139.7" rot="R270"/>
+<instance part="S3" gate="G$1" x="247.65" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="250.19" y="99.06" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="S6" gate="G$1" x="247.65" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="250.19" y="142.24" size="1.778" layer="95" rot="R270"/>
+</instance>
 <instance part="Q2" gate="G$1" x="234.95" y="49.53" smashed="yes">
 <attribute name="NAME" x="232.41" y="52.07" size="1.016" layer="95" ratio="10"/>
 <attribute name="VALUE" x="237.49" y="49.53" size="1.016" layer="96" ratio="10"/>
