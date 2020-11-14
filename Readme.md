@@ -3,6 +3,8 @@
 
 ## Introduction
 
+![ ](Images/cover.png)
+
 Ideamart NB-IoT Ideaboard is a connected battery-powered quick-prototyping board created for IoT developers and makers. Its purpose is to make IoT device developemtn process quick and easy as possible. It has many communication interfaces such as I2C, SPI, USART, CAN, along with a 12-bit ADC and 16-bit PWM pins broken out with power supply pins, so that any sensor/actuator module in the market can be hooked up to it easily wihout hassle.
 
 It is powered by a 3.7V Li-Ion cell which is managed by an onboard Li-Ion charge controller, making it ideal for prototyping IoT devices. Its main MCU is a powerful STM32F103R series microcontroller with 128K Flash and 20K SRAM memory, enough to make any IoT application effortlessly. It can be connected to the NB-IoT network via a Quectel BC92 modem with 2G GSM fallback option while supporting MFF2 or 3FF eSIM giving it full internet access. 
