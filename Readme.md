@@ -164,7 +164,7 @@ The Ideaboard is designed around the STM32F103RB MCU in a 64-pin LQFP package as
 ![ ](Diagrams/mechanical-dimensions.png)
 
 ### Pinout Diagram
-![ ](Diagrams/ideaboard-pinout.png)
+![ ](Diagrams/Ideaboard-pinout.svg)
 
 ### Power supply and Battery Management
 
